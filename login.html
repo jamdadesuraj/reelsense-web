@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI Video Marketing Platform</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Shelly - Website" />
+    <meta name="author" content="merkulove" />
+    <meta name="keywords" content="" />
+    <link rel="icon" href="assets/img/logo.png" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/button.min.css" />
+
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Poppins;
+        background-image: url("assets/img/eli_5.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .login-card {
+        background: #fff;
+        padding: 35px;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 360px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+
+      .logo {
+        width: 55px;
+        height: 55px;
+        background: linear-gradient(135deg, #ff4b6e, #7b4dff);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 22px;
+        margin: 0 auto 15px;
+      }
+
+      .form-control {
+        height: 45px;
+        border-radius: 6px;
+      }
+
+      .input-group-text {
+        background: #f1f1f1;
+        border: none;
+      }
+
+      .form-control {
+        border: none;
+        background: #f1f1f1;
+      }
+
+      .form-control:focus {
+        box-shadow: none;
+        background: #f1f1f1;
+      }
+
+      .remember {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        margin-top: 10px;
+      }
+
+      .login-btn {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        color: #fff;
+        font-weight: 600;
+        background: linear-gradient(90deg, #ff4b6e, #7b4dff);
+      }
+
+      .footer-text {
+        margin-top: 20px;
+        font-size: 13px;
+        color: #777;
+      }
+
+      @media (max-width: 576px) {
+        .login-card {
+          margin: 20px;
+          padding: 25px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="login-card">
+      <div class="logo">
+        <img src="assets/img/logo.png" alt="lgo" width="30" />
+      </div>
+
+      <h4 class="text-dark font-weight-bold mb-2">Log In</h4>
+      <p class="text-muted fs-12 mb-3">
+        Sign in and let ReelSense create daily videos that grow your community
+        effortlessly.
+      </p>
+
+      <form>
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="fa fa-envelope fs-12"></i>
+              </span>
+            </div>
+
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Your email"
+              style="font-size: 12px"
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="fa fa-lock fs-12"></i>
+              </span>
+            </div>
+
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Your password"
+              style="font-size: 12px"
+            />
+
+            <div class="input-group-append">
+              <span class="input-group-text">
+                <i class="fa fa-eye fs-12"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="remember">
+          <label class="fs-12 text-dark"
+            ><input type="checkbox" /> Remember me</label
+          >
+
+          <a href="forgot-password.html" class="fs-12 text-primary"
+            >Forgot Password?</a
+          >
+        </div>
+
+        <button class="login-btn">Sign in</button>
+      </form>
+
+      <div class="footer-text fs-12">
+        We respect your privacy. Read our
+        <a href="privacy-policy.html" class="text-primary"> Privacy Policy</a>
+      </div>
+    </div>
+  </body>
+</html>
